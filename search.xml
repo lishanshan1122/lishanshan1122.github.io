@@ -4,6 +4,27 @@
   
     
     <entry>
+      <title>历史上的今天</title>
+      <link href="/2026/01/13/%E5%8E%86%E5%8F%B2%E4%B8%8A%E7%9A%84%E4%BB%8A%E5%A4%A9/"/>
+      <url>/2026/01/13/%E5%8E%86%E5%8F%B2%E4%B8%8A%E7%9A%84%E4%BB%8A%E5%A4%A9/</url>
+      
+        <content type="html"><![CDATA[<h2 id="NPM-插件安装的部署方法："><a href="#NPM-插件安装的部署方法：" class="headerlink" title="NPM 插件安装的部署方法："></a>NPM 插件安装的部署方法：</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">npm i hexo-history-calendar --save</span><br><span class="line"># 或者</span><br><span class="line">cnpm i hexo-history-calendar --save</span><br></pre></td></tr></table></figure><p>注意，一定要加–save，不然本地预览的时候可能不会显示！！！</p><h2 id="新增网站根目录-config-配置项-不是主题的-："><a href="#新增网站根目录-config-配置项-不是主题的-：" class="headerlink" title="新增网站根目录_config 配置项(不是主题的)："></a>新增网站根目录_config 配置项(不是主题的)：</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">history_calendar:</span><br><span class="line">  priority: 4</span><br><span class="line">  enable: true</span><br><span class="line">  enable_page: all</span><br><span class="line">  layout:</span><br><span class="line">    type: class</span><br><span class="line">    name: sticky_layout</span><br><span class="line">    index: 0</span><br><span class="line">  temple_html: &#x27;&lt;div class=&quot;card-widget card-history&quot;&gt;&lt;div class=&quot;card-content&quot;&gt;&lt;div class=&quot;item-headline&quot;&gt;&lt;i class=&quot;fas fa-clock fa-spin&quot;&gt;&lt;/i&gt;&lt;span&gt;那年今日&lt;/span&gt;&lt;/div&gt;&lt;div id=&quot;history-baidu&quot; style=&quot;height: 100px;overflow: hidden&quot;&gt;&lt;div class=&quot;history_swiper-container&quot; id=&quot;history-container&quot; style=&quot;width: 100%;height: 100%&quot;&gt;&lt;div class=&quot;swiper-wrapper&quot; id=&quot;history_container_wrapper&quot; style=&quot;height:20px&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&#x27;</span><br></pre></td></tr></table></figure><h3 id="enable"><a href="#enable" class="headerlink" title="enable"></a>enable</h3><p>参数：true&#x2F;false<br>含义：是否开启插件</p><h3 id="enable-page"><a href="#enable-page" class="headerlink" title="enable_page"></a>enable_page</h3><p>参数：all<br>含义：路由地址，all 代表全局开启。如 &#x2F; 代表主页。</p><h3 id="priority"><a href="#priority" class="headerlink" title="priority"></a>priority</h3><p>参数：1<br>含义：插件的叠放顺序，数字越大，叠放约靠前。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">history_calendar:</span><br><span class="line">  enable: true</span><br><span class="line">  priority: 4 # 这里是参数</span><br></pre></td></tr></table></figure><h3 id="hexo-三连"><a href="#hexo-三连" class="headerlink" title="hexo 三连"></a>hexo 三连</h3><p>执行 hexo 三连</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</span><br></pre></td></tr></table></figure><p>已经成功部署</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> 侧边栏 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>添加今日诗词</title>
       <link href="/2026/01/08/%E6%B7%BB%E5%8A%A0%E4%BB%8A%E6%97%A5%E8%AF%97%E8%AF%8D/"/>
       <url>/2026/01/08/%E6%B7%BB%E5%8A%A0%E4%BB%8A%E6%97%A5%E8%AF%97%E8%AF%8D/</url>
